@@ -21,7 +21,7 @@ describe('Intercom: Class', () => {
           isBooted: false,
           visible: false,
           unreadCount: 0,
-        })
+        }),
       );
     });
 
@@ -35,7 +35,7 @@ describe('Intercom: Class', () => {
           isBooted: false,
           visible: false,
           unreadCount: 0,
-        })
+        }),
       );
     });
 

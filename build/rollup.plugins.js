@@ -54,6 +54,7 @@ const generatePlugins = (args) => [
   replace({
     'process.env.NODE_ENV': JSON.stringify('production'),
     VERSION: JSON.stringify(version),
+    preventAssignment: true,
   }),
   // -------------------------------------------
   // Clean & Minify
