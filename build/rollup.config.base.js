@@ -9,7 +9,7 @@ const {
 const banner =
   '/*!\n' +
   ` * Vue-intercom v${version}\n` +
-  ` * (c) 2019-${new Date().getFullYear()} Mathieu Stanowski\n` +
+  ` * (c) 2022-${new Date().getFullYear()} Gigalogy\n` +
   ' */';
 
 export default {
@@ -18,7 +18,7 @@ export default {
     name: 'VueIntercom',
     exports: 'named',
     globals: {
-      'vue': 'Vue',
+      vue: 'Vue',
     },
     banner,
   },

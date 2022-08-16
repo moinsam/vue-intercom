@@ -3,7 +3,12 @@ module.exports = {
   env: {
     node: true,
   },
-  extends: ['plugin:vue/essential', '@vue/standard'],
+  extends: [
+    'plugin:vue/base',
+    'plugin:vue/essential',
+    'plugin:vue/strongly-recommended',
+    'plugin:vue/recommended'
+  ],
   rules: {
     // Require braces in arrow function body: disabled
     "arrow-body-style": 'off',
@@ -62,6 +67,6 @@ module.exports = {
     semi: ['error', 'always'],
   },
   parserOptions: {
-    parser: 'babel-eslint',
+    parser: '@babel/eslint-parser',
   },
 };
